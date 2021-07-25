@@ -1,6 +1,6 @@
 import java.sql.*;
 
-class Main{
+class DDL {
 	public static void main(String[] args) throws Exception {
 		
 		
@@ -8,7 +8,7 @@ class Main{
 		
 		String url = "jdbc:mysql://localhost:3306/testrun";
 		String uname = "root";
-		String pass = "/* replace ur password */";
+		String pass = "*** replace with ur Password ***";
 		Connection con = DriverManager.getConnection(url,uname,pass);
 		
 		String query = "select * from student";
