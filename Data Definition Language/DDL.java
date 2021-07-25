@@ -8,7 +8,7 @@ class DDL {
 		
 		String url = "jdbc:mysql://localhost:3306/testrun";
 		String uname = "root";
-		String pass = "*** replace with ur Password ***";
+		String pass = "*** replace with urs****";
 		Connection con = DriverManager.getConnection(url,uname,pass);
 		
 		String query = "select * from student";
