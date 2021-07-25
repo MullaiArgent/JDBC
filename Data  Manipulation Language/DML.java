@@ -7,7 +7,7 @@ public class DML {
 
         String url = "jdbc:mysql://localhost:3306/testrun";
         String uname = "root";
-        String pass = "*** replace with ur Password ***";
+        String pass = "**Replace with yours**";
         Connection con = DriverManager.getConnection(url,uname,pass);
 
         String query = "insert into student values (4,'tim',50)";
